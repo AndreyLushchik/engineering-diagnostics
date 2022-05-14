@@ -14,7 +14,7 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background-color: #111;
+	background-color: #fff;
 	transition: all 0.5s;
 	&.center {
 		content: "";
@@ -25,7 +25,7 @@
 			right: 0;
 			width: 15px;
 			height: 2px;
-			background: rgb(255, 0, 0);
+			background: #fee040;
 		}
 		&::after {
 			content: "";
@@ -33,7 +33,7 @@
 			left: 0;
 			width: 15px;
 			height: 2px;
-			background: rgb(255, 0, 0);
+			background: #fee040;
 		}
 	}
 }

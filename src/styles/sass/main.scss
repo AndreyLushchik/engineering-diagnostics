@@ -1,7 +1,10 @@
 @import "./config/reset";
+@import "./config/mixins";
 
 @import "./global/wrapper";
 @import "./global/header";
+@import "./global/fonts";
 
 @import "./components/burger";
 @import "./components/nav";
+@import "./components/content";
